@@ -1,4 +1,6 @@
+require("dotenv").config();
 const { Client, GatewayIntentBits } = require("discord.js");
+
 
 const client = new Client({
   intents: [
@@ -55,6 +57,4 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
   }
 });
 
-client.login(
-  "MTQ4ODcyNzQ5NzU5OTM1MzAwMw.GuXkwF.mFfI-LG5gJtdt06aj7AHNc5eNu-uVzIqqA9me4",
-);
+client.login(process.env.TOKEN);
