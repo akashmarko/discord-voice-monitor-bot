@@ -39,6 +39,7 @@ client.on("voiceStateUpdate", async (oldState, newState) => {
   hour: "numeric",
   minute: "2-digit",
   hour12: true,
+  timeZone: "Asia/Kolkata"
   });
 
   const logChannel = newState.guild.channels.cache.get(LOG_CHANNEL_ID);
