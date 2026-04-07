@@ -18,7 +18,7 @@ const warningMessage = `⚠️ **Hackathon Voice Room Notice**
 
 You left your team voice room. Please **rejoin within 5 minutes** or you may be eliminated.
 
-If you are unable to rejoin due to any issue, please **inform a moderator or the Support Team immediately**.
+If you are unable to rejoin due to any issue, please **inform a moderator or the Support Team immediately**. Contact: +91 99566 94913
 
 If you are experiencing technical problems, open a support request using **#open-ticket** in the **Support Center** so our team can assist you.`
 
